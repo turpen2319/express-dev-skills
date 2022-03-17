@@ -3,6 +3,43 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+  color: #1a485a;
+}
+
 a {
   color: #00B7FF;
+}
+
+.bar {
+  background-color: #1a485a;
+  font-size: large;
+  padding: 2px;
+  margin-left: 4px;
+}
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+	
+.delete-form button {
+  color: red;
+}
+	
+li {
+  list-style:disc;
+}
+
+#home-icon {
+  width: 30px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: all 0.4s;
+}
+
+#home-icon:hover {
+  background: #00B7FF;
+  transform: scale(1.2);
 }
